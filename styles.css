@@ -1,8 +1,14 @@
 :root{
-    color:dimgray
+    color:rgb(25, 131, 173)
 }
 p { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 };
 h1{
-    color:dimgray
+    color:aquamarine
+}
+h3{
+    color:rgb(243, 227, 103)
+}
+body{
+    background-color:lightgoldenrodyellow
 }

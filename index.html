@@ -10,10 +10,11 @@
 <title>Projeto Agrinho</title>
 </head>
 <header class="container text-center">
-        <h1>Campo x Cidade</h1>
-        <img src="campoxcidade.png" class="rounded mx-auto d-block" alt="...">
+        <h1 class="text-warning">Campo x Cidade</h1>
+        <img src="img/campoxcidade.png" class="rounded mx-auto d-block" alt="...">
         <div class="text-suble-outline-info" 
         ><h3>Ligações entre o campo e a cidade</h3>
+        <br>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
@@ -23,7 +24,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card text-center" style="width: 18rem;">
-                    <img src="exodorural.jpg" class="card-img-top" alt="êxodo rural" />
+                    <img src="/img/exodorural.jpg" class="card-img-top" alt="êxodo rural" />
                     <div class="card-body">
                         <h5 class="text-success">Êxodo Rural</h5>
                         <p class="card-text">
@@ -40,7 +41,7 @@ Causas: modernização do campo e substituição de pessoas por máquinas e nova
 
             <div class="col-md-4">
                 <div class="card text-center" style="width: 18rem;">
-                    <img src="dependencia.jpg" class="card-img-top" alt="dependencia" />
+                    <img src="img/dependencia.jpg" class="card-img-top" alt="dependencia" />
                     <div class="card-body">
                         <h5 class="text-danger">Dependência</h5>
                         <p class="card-text">
@@ -58,7 +59,7 @@ Causas: modernização do campo e substituição de pessoas por máquinas e nova
 
             <div class="col-md-4">
                 <div class="card text-center" style="width: 18rem;">
-                    <img src="exodourbano.jpg" class="card-img-top" alt="exodourbano" />
+                    <img src="img/exodourbano.jpg" class="card-img-top" alt="exodourbano" />
                     <div class="card-body">
                         <h5 class="text-secondary">Êxodo Urbano</h5>
                         <p class="card-text">
@@ -112,8 +113,8 @@ Causas: qualidade de vida, trabalho remoto(que se popularizou com a pandemia), s
             ></button>
           </div>
           <div class="modal-body">
-            <p>Benefícios para o campo: Aumento da produtividade, Redução de campos, Melhora na qualidade dos produtos, Sustentabilidade, Facilidade para o produtor
-Benefícios para a cidade: Produção de alimentos, Matérias-Primas, Qualidade de vida, Serviços ecológicos, Desenvolvimento econômico(a agricultura e a pecuária são os ramos que mais movem a economia)  </p>
+            <p>Benefícios para o campo: Aumento da produtividade, Redução de campos, Melhora na qualidade dos produtos, Sustentabilidade, Facilidade para o produtor </p>
+            <p>Benefícios para a cidade: Produção de alimentos, Matérias-Primas, Qualidade de vida, Serviços ecológicos, Desenvolvimento econômico(a agricultura e a pecuária são os ramos que mais movem a economia)</p>
           </div>
           <div class="modal-footer">
            <a href="https://meuartigo.brasilescola.uol.com.br/geografia/as-relacoes-entre-cidade-campo.htm">Clique para mais</a>
@@ -145,14 +146,22 @@ Benefícios para a cidade: Produção de alimentos, Matérias-Primas, Qualidade 
         </div>
       </div>
     </div>
-  <h1>🌽 Larvinha e Milho</h1>
+  <h5 class="badge text-bg-success">🌽 Larvinha e Milho</h5>
+  <br>
   <button id="startBtn">Jogar</button>
 
+  <div class="row">
+  <div class="col-sm-6">
   <div id="gameArea">
     <div id="score">Score: 0</div>
     <canvas id="gameCanvas" width="450" height="450"></canvas>
     <div id="gameover"></div>
   </div>
+</div>
+<div class="col-sm-6">
+  <iframe width="560" height="315" 
+src="https://www.youtube.com/embed/7f8CXiFp6fk" 
+frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
   <script src="larvaemilho.js"></script>
-  

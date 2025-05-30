@@ -13,9 +13,9 @@ let larva = { x: 0, y: 0 };
 let planta = { x: 1, y: 1 };
 
 const larvaImg = new Image();
-larvaImg.src = 'larva.png';
+larvaImg.src = 'img/larva.png';
 const plantaImg = new Image();
-plantaImg.src = 'milho.png'; 
+plantaImg.src = 'img/milho.png'; 
 
 function gerarPosicaoAleatoria() {
   return {
